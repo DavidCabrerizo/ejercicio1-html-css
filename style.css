@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.fotoLogo {
+    width: 150px;
+    height: 90px;
+}
+
+nav ul {
+    background-color: #dbdada;
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+    margin: 80px;
+    margin-top: 40px;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav li:hover {
+
+    background-color: #c7f2a4;
+    border-radius: 8px solid 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 243px;
+    height: 62px;
+    border-radius: 8px;
+    color: black;
+    border-color: #B6E388;
+    background-color: #B6E388;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fondo {
+    background-image: url(./img/peluco.mp4);
+    display: flex;
+    justify-content: center;
+}
+
+.sizeMedia {
+    display: flex;
+    justify-content: center;
+
+    width: 75%;
+    height: 75%;
+}
+
+
+.agradecimiento {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 60px;
+}
+
+.reloj {
+    width: 500px;
+    height: 900px;
+}
+
+.fotoReloj {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.containerForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.formularioClase {
+
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.2px;
+    color: #BABECC;
+    text-shadow: 1px 1px 1px #fff;
+    /* background-color:#EBECF0; */
+    padding: 16px*2 0;
+    text-align: center;
+}
+
+
+.containerGeneral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.videoClase {
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 16px*20;
+    padding: 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #fff;
+
+    margin-right: 16px/2;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+footer {
+    background-color: #b6e388;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+}

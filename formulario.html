@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Peluco</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="/index.html"><img class="fotoLogo" src="./img/logo2.png"
+                alt="Logo marca relojes Peluco, una letra pe con la palabra abajo escrita"></a>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <div class="relojes">
+                    <a href="">Relojes</a>
+                </div>
+            </li>
+            <li>
+                <div class="ultimasNovedades">
+                    <a href="">Ultimas Novedades</a>
+                </div>
+            </li>
+            <li>
+                <div class="patrocinios">
+                    <a href="">Patrocinios</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main class="containerForm">
+
+        <form class="formularioClase" action="agradecimiento.html">
+            <div>
+                <ul>
+
+                    <div class="segment">
+                        <h1>Formulario:</h1>
+                    </div>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" required />
+                    </li>
+                    <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" required />
+                    </li>
+                    <li>
+                        <label for="tlf">Teléfono:</label>
+                        <input type="tel" name="user_tlf" required></input>
+                    </li>
+                    <li>
+                        <label for="date">Día de contacto:</label>
+                        <input type="date" name="date" required></input>
+                    </li>
+                    <li>
+                        <label for="hour">Hora de contacto:</label>
+                        <input type="datetime" name="hour" required></input>
+                    </li>
+                </ul>
+                <div class="boton">
+                    <a href="/agradecimiento.html"><button class="btn"><b>Enviar:</b></button></a>
+                </div>
+            </div>
+
+        </form>
+
+        <figure class="reloj">
+            <img class="fotoReloj" src="./img/reloj.jpg"
+                alt="reloj de pulsera clasico con esfera blanca y separacion de horas con dorado, correa de cuero">
+        </figure>
+
+
+
+    </main>
+
+
+</body>
+<footer>
+    <p>EST. 1984</p>
+</footer>
+
+</html>
